@@ -23,7 +23,7 @@ const CopyButton = ({ text }) => {
         readOnly
       />
       {/* O botão que ao ser clicado irá copiar o texto */}
-      <button onClick={copyText}>Copiar</button>
+      <button onClick={copyText}>{text}</button>
     </div>
   );
 };
