@@ -1,4 +1,5 @@
 import CopyButton from "./components/CopyButton";
+import './index.css'
 
 function App() {
 
