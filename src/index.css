@@ -1,6 +1,9 @@
 * {
-    padding: 0;
-    margin: 0;
-    background-color: #252525;
-    color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.page {
+  background-color: #252525;
+  color: #fff;
+  height: 100vh;
 }

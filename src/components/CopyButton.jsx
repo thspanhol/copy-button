@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import './CopyButton.css'
 
 const CopyButton = ({ text }) => {
   const textRef = useRef(null);
@@ -23,7 +24,7 @@ const CopyButton = ({ text }) => {
         readOnly
       />
       {/* O botão que ao ser clicado irá copiar o texto */}
-      <button onClick={copyText}>{text}</button>
+      <button className="btn" onClick={copyText}>{text}</button>
     </div>
   );
 };
